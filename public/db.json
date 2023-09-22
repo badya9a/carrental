@@ -1,0 +1,439 @@
+{
+	"cars": [
+		{
+			"id": 1,
+			"make": "Toyota",
+			"model": "Camry",
+			"year": 2023,
+			"color": "Silver",
+			"fuel_type": "Gasoline",
+			"transmission": "Automatic",
+			"seating_capacity": 5,
+			"daily_rate": 60.0,
+			"car_type": "Sedan",
+			"tank_volume_gallons": 15.5,
+			"door_count": 4,
+			"available": true,
+			"comments": [
+				{
+					"full_name": "John Doe",
+					"date": "2023-09-03",
+					"rating": 4,
+					"comment_text": "Great car for daily commuting."
+				},
+				{
+					"full_name": "Jane Smith",
+					"date": "2023-09-04",
+					"rating": 5,
+					"comment_text": "Excellent fuel efficiency."
+				}
+			]
+		},
+		{
+			"id": 2,
+			"make": "Honda",
+			"model": "Civic",
+			"year": 2022,
+			"color": "Blue",
+			"fuel_type": "Gasoline",
+			"transmission": "Automatic",
+			"seating_capacity": 5,
+			"daily_rate": 55.0,
+			"car_type": "Sedan",
+			"tank_volume_gallons": 12.4,
+			"door_count": 4,
+			"available": true,
+			"comments": [
+				{
+					"full_name": "Alice Johnson",
+					"date": "2023-09-05",
+					"rating": 5,
+					"comment_text": "Very reliable car."
+				},
+				{
+					"full_name": "Bob Wilson",
+					"date": "2023-09-06",
+					"rating": 4,
+					"comment_text": "Smooth ride and good mileage."
+				}
+			]
+		},
+		{
+			"id": 3,
+			"make": "Ford",
+			"model": "Escape",
+			"year": 2023,
+			"color": "Red",
+			"fuel_type": "Hybrid",
+			"transmission": "Automatic",
+			"seating_capacity": 5,
+			"daily_rate": 70.0,
+			"car_type": "SUV",
+			"tank_volume_gallons": 14.5,
+			"door_count": 4,
+			"available": true,
+			"comments": [
+				{
+					"full_name": "Eva Anderson",
+					"date": "2023-09-07",
+					"rating": 5,
+					"comment_text": "Great fuel economy for an SUV."
+				},
+				{
+					"full_name": "Michael Brown",
+					"date": "2023-09-08",
+					"rating": 4,
+					"comment_text": "Spacious interior."
+				}
+			]
+		},
+		{
+			"id": 4,
+			"make": "Chevrolet",
+			"model": "Malibu",
+			"year": 2022,
+			"color": "White",
+			"fuel_type": "Gasoline",
+			"transmission": "Automatic",
+			"seating_capacity": 5,
+			"daily_rate": 58.0,
+			"car_type": "Sedan",
+			"tank_volume_gallons": 13.0,
+			"door_count": 4,
+			"available": true,
+			"comments": [
+				{
+					"full_name": "Grace Davis",
+					"date": "2023-09-09",
+					"rating": 3,
+					"comment_text": "Decent car, but could use more features."
+				},
+				{
+					"full_name": "Robert Garcia",
+					"date": "2023-09-10",
+					"rating": 4,
+					"comment_text": "Good value for the price."
+				}
+			]
+		},
+		{
+			"id": 5,
+			"make": "Nissan",
+			"model": "Rogue",
+			"year": 2023,
+			"color": "Black",
+			"fuel_type": "Gasoline",
+			"transmission": "Automatic",
+			"seating_capacity": 5,
+			"daily_rate": 65.0,
+			"car_type": "SUV",
+			"tank_volume_gallons": 14.2,
+			"door_count": 4,
+			"available": true,
+			"comments": [
+				{
+					"full_name": "Olivia Hernandez",
+					"date": "2023-09-11",
+					"rating": 5,
+					"comment_text": "Love the sleek design."
+				},
+				{
+					"full_name": "David Jackson",
+					"date": "2023-09-12",
+					"rating": 4,
+					"comment_text": "Good cargo space."
+				}
+			]
+		},
+		{
+			"id": 6,
+			"make": "Toyota",
+			"model": "Sienna",
+			"year": 2023,
+			"color": "Silver",
+			"fuel_type": "Hybrid",
+			"transmission": "Automatic",
+			"seating_capacity": 7,
+			"daily_rate": 75.0,
+			"car_type": "Minivan",
+			"tank_volume_gallons": 18.0,
+			"door_count": 4,
+			"available": true,
+			"comments": [
+				{
+					"full_name": "Sophia Kim",
+					"date": "2023-09-13",
+					"rating": 5,
+					"comment_text": "Perfect for family trips."
+				},
+				{
+					"full_name": "William Lee",
+					"date": "2023-09-14",
+					"rating": 4,
+					"comment_text": "Comfortable seating."
+				}
+			]
+		},
+		{
+			"id": 7,
+			"make": "Ford",
+			"model": "Mustang",
+			"year": 2023,
+			"color": "Yellow",
+			"fuel_type": "Gasoline",
+			"transmission": "Automatic",
+			"seating_capacity": 4,
+			"daily_rate": 80.0,
+			"car_type": "Sports Car",
+			"tank_volume_gallons": 16.0,
+			"door_count": 2,
+			"available": true,
+			"comments": [
+				{
+					"full_name": "James Miller",
+					"date": "2023-09-15",
+					"rating": 5,
+					"comment_text": "A thrill to drive."
+				},
+				{
+					"full_name": "Linda Moore",
+					"date": "2023-09-16",
+					"rating": 3,
+					"comment_text": "Not practical for daily use."
+				}
+			]
+		},
+		{
+			"id": 8,
+			"make": "Chevrolet",
+			"model": "Traverse",
+			"year": 2022,
+			"color": "Silver",
+			"fuel_type": "Gasoline",
+			"transmission": "Automatic",
+			"seating_capacity": 8,
+			"daily_rate": 85.0,
+			"car_type": "SUV",
+			"tank_volume_gallons": 19.0,
+			"door_count": 4,
+			"available": true,
+			"comments": [
+				{
+					"full_name": "Thomas Wilson",
+					"date": "2023-09-17",
+					"rating": 4,
+					"comment_text": "Spacious for larger families."
+				},
+				{
+					"full_name": "Karen Perez",
+					"date": "2023-09-18",
+					"rating": 5,
+					"comment_text": "Smooth and comfortable."
+				}
+			]
+		},
+		{
+			"id": 9,
+			"make": "Honda",
+			"model": "Accord",
+			"year": 2022,
+			"color": "Gray",
+			"fuel_type": "Gasoline",
+			"transmission": "Automatic",
+			"seating_capacity": 5,
+			"daily_rate": 60.0,
+			"car_type": "Sedan",
+			"tank_volume_gallons": 14.1,
+			"door_count": 4,
+			"available": true,
+			"comments": [
+				{
+					"full_name": "Daniel Clark",
+					"date": "2023-09-19",
+					"rating": 4,
+					"comment_text": "Good all-around car."
+				},
+				{
+					"full_name": "Maria Rodriguez",
+					"date": "2023-09-20",
+					"rating": 3,
+					"comment_text": "Could use more legroom."
+				}
+			]
+		},
+		{
+			"id": 10,
+			"make": "Nissan",
+			"model": "Sentra",
+			"year": 2023,
+			"color": "Blue",
+			"fuel_type": "Gasoline",
+			"transmission": "Automatic",
+			"seating_capacity": 5,
+			"daily_rate": 55.0,
+			"car_type": "Sedan",
+			"tank_volume_gallons": 13.2,
+			"door_count": 4,
+			"available": true,
+			"comments": [
+				{
+					"full_name": "Jennifer Hall",
+					"date": "2023-09-21",
+					"rating": 3,
+					"comment_text": "Decent car for the price."
+				},
+				{
+					"full_name": "Richard Martinez",
+					"date": "2023-09-22",
+					"rating": 4,
+					"comment_text": "Good fuel efficiency."
+				}
+			]
+		},
+		{
+			"id": 11,
+			"make": "Toyota",
+			"model": "Corolla",
+			"year": 2023,
+			"color": "White",
+			"fuel_type": "Gasoline",
+			"transmission": "Automatic",
+			"seating_capacity": 5,
+			"daily_rate": 58.0,
+			"car_type": "Sedan",
+			"tank_volume_gallons": 13.2,
+			"door_count": 4,
+			"available": true,
+			"comments": [
+				{
+					"full_name": "Christopher Turner",
+					"date": "2023-09-23",
+					"rating": 4,
+					"comment_text": "Reliable and affordable."
+				},
+				{
+					"full_name": "Jessica Davis",
+					"date": "2023-09-24",
+					"rating": 5,
+					"comment_text": "Great for city driving."
+				}
+			]
+		},
+		{
+			"id": 12,
+			"make": "Ford",
+			"model": "F-150",
+			"year": 2022,
+			"color": "Black",
+			"fuel_type": "Gasoline",
+			"transmission": "Automatic",
+			"seating_capacity": 5,
+			"daily_rate": 70.0,
+			"car_type": "Truck",
+			"tank_volume_gallons": 23.0,
+			"door_count": 4,
+			"available": true,
+			"comments": [
+				{
+					"full_name": "John Smith",
+					"date": "2023-09-25",
+					"rating": 4,
+					"comment_text": "Powerful and versatile."
+				},
+				{
+					"full_name": "Emily Wilson",
+					"date": "2023-09-26",
+					"rating": 3,
+					"comment_text": "Not the best for city driving."
+				}
+			]
+		},
+		{
+			"id": 13,
+			"make": "Chevrolet",
+			"model": "Equinox",
+			"year": 2023,
+			"color": "Red",
+			"fuel_type": "Gasoline",
+			"transmission": "Automatic",
+			"seating_capacity": 5,
+			"daily_rate": 65.0,
+			"car_type": "SUV",
+			"tank_volume_gallons": 14.9,
+			"door_count": 4,
+			"available": true,
+			"comments": [
+				{
+					"full_name": "Kevin Harris",
+					"date": "2023-09-27",
+					"rating": 5,
+					"comment_text": "Smooth and stylish."
+				},
+				{
+					"full_name": "Amanda Garcia",
+					"date": "2023-09-28",
+					"rating": 4,
+					"comment_text": "Good value for an SUV."
+				}
+			]
+		},
+		{
+			"id": 14,
+			"make": "Honda",
+			"model": "Pilot",
+			"year": 2022,
+			"color": "Gray",
+			"fuel_type": "Gasoline",
+			"transmission": "Automatic",
+			"seating_capacity": 8,
+			"daily_rate": 75.0,
+			"car_type": "SUV",
+			"tank_volume_gallons": 19.5,
+			"door_count": 4,
+			"available": true,
+			"comments": [
+				{
+					"full_name": "Sarah Moore",
+					"date": "2023-09-29",
+					"rating": 4,
+					"comment_text": "Great for family outings."
+				},
+				{
+					"full_name": "Michael Clark",
+					"date": "2023-09-30",
+					"rating": 5,
+					"comment_text": "Spacious and comfortable."
+				}
+			]
+		},
+		{
+			"id": 15,
+			"make": "Nissan",
+			"model": "Maxima",
+			"year": 2023,
+			"color": "Silver",
+			"fuel_type": "Gasoline",
+			"transmission": "Automatic",
+			"seating_capacity": 5,
+			"daily_rate": 80.0,
+			"car_type": "Sedan",
+			"tank_volume_gallons": 18.0,
+			"door_count": 4,
+			"available": true,
+			"comments": [
+				{
+					"full_name": "Daniel Smith",
+					"date": "2023-10-01",
+					"rating": 5,
+					"comment_text": "Fast and stylish."
+				},
+				{
+					"full_name": "Megan Davis",
+					"date": "2023-10-02",
+					"rating": 4,
+					"comment_text": "Luxurious interior."
+				}
+			]
+		}
+	]
+}
