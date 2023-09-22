@@ -34,6 +34,6 @@ export const CategoryData: ICategory[] = [
 		classname: 'category-5',
 		value: 'Hatchback',
 		title: 'HatchBack',
-		bgImage: '/images/category-hatchBack',
+		bgImage: '/images/category-hatchback',
 	},
 ]
