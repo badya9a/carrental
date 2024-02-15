@@ -26,7 +26,7 @@ const CartItem: FC<ICar> = ({ id, make, model, fuel_type, daily_rate }) => {
 				}}
 			>
 				<img
-					src={`/images/cars/${make.toLowerCase}-${model.toLowerCase}1.jpg`}
+					src={`/images/cars/${make.toLowerCase()}-${model.toLowerCase()}1.jpg`}
 					alt={`${make}-${model}`}
 					style={{
 						objectFit: 'cover',
