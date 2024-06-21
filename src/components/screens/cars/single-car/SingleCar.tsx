@@ -51,7 +51,7 @@ const SingleCar = () => {
 						<Box sx={{ display: 'flex', flex: '1 1 35rem' }}>
 							<img
 								style={{ width: '100%' }}
-								src={`/images/cars/${car?.make}-${car?.model}1.jpg`}
+								src={`/images/cars/${car?.make.toLowerCase()}-${car?.model.toLowerCase()}1.jpg`}
 								alt={`${car?.make}${car?.model}`}
 							/>
 						</Box>
