@@ -9,9 +9,10 @@ import { useGetTotalBill } from '../../../utils/useGetTotalBill'
 import EmptyCart from './EmptyCart'
 import CartHeader from './CartHeader'
 import CartTotal from './CartTotal'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 
 import { useLocalStorage } from '../../../hooks/useLocalStorage'
+import { useSelector } from 'react-redux'
 
 const Cart = () => {
 	const { data: allCars } = useQuery(
@@ -22,11 +23,11 @@ const Cart = () => {
 		}
 	)
 
+	const [cars, setCars] = useLocalStorage<number[]>('cart', [])
+
 	useEffect(() => {
 		window.scrollTo(0, 0)
 	}, [])
-
-	const [cars, setCars] = useLocalStorage<number[]>('cart', [])
 
 	const { total } = useGetTotalBill()
 
@@ -47,7 +48,7 @@ const Cart = () => {
 										marginBottom: '2rem',
 									}}
 								>
-									{cars.map((carId) => {
+									{cars.map((carId: number) => {
 										const car = allCars?.find((item: ICar) => item.id === carId)
 										return car ? <CartItem {...car} key={carId} /> : null
 									})}

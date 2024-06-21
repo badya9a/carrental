@@ -1,13 +1,13 @@
 import { deleteFromStorage, saveToStorage } from './cart.helper'
 
 export const CartService = {
-	async addToCart(id: number) {
+	addToCart(id: number) {
 		saveToStorage(id)
 
 		return { id }
 	},
 
-	async deleteFromCart(id: number) {
+	deleteFromCart(id: number) {
 		deleteFromStorage(id)
 
 		return { id }
