@@ -1,6 +1,6 @@
 import { Box, Button, Container, Link, Typography } from '@mui/material'
 import { useQuery } from '@tanstack/react-query'
-import { useNavigation, useParams } from 'react-router-dom'
+import { useNavigate, useNavigation, useParams } from 'react-router-dom'
 
 import { CarService } from '../../../../services/cars.service'
 import BsIcon from '../../../ui/BsIcon'
@@ -9,6 +9,7 @@ import { GiFuelTank } from 'react-icons/gi'
 import DescriptionSection from './DescriptionSection'
 import CarsCarousel from '../popular-cars/cars-carousel/CarsCarousel'
 import { useEffect } from 'react'
+import { CartService } from '../../../../services/cart/cart.service'
 
 type Params = {
 	id: string
@@ -19,6 +20,7 @@ const SingleCar = () => {
 		window.scrollTo(0, 0)
 	}, [window.location.pathname])
 
+	const navigate = useNavigate()
 	const { id } = useParams<keyof Params>() as Params
 
 	const { data: car } = useQuery(['get car', id], () => CarService.getAll(), {
@@ -132,6 +134,10 @@ const SingleCar = () => {
 											padding: '0.5rem 1.5rem',
 											transition: 'opacity 0.5s',
 											'&:hover': { backgroundColor: 'red', opacity: 0.6 },
+										}}
+										onClick={() => {
+											CartService.addToCart(+id)
+											navigate('/cart')
 										}}
 									>
 										Rent Car

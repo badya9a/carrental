@@ -96,7 +96,7 @@ const CarouselItem: FC<ICar> = ({
 							transition: 'color 0.2s linear',
 						},
 					}}
-					href={`car/${id}`}
+					href={`/car/${id}`}
 				>
 					{make} {model}
 				</Link>
