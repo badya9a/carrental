@@ -4,7 +4,6 @@ import { useNavigate } from 'react-router-dom'
 export const useCarSearch = (reset: UseFormReset<FieldValues>) => {
 	const navigate = useNavigate()
 	const onSubmit = async (data: any) => {
-		reset()
 		navigate(
 			`/cars?carMake=${data.make === undefined ? '' : data.make}&carType=${
 				data.car_type === undefined ? '' : data.car_type
